@@ -234,7 +234,8 @@ svg.page-hero-shape {
 	color: #0fcb97;
 	font-size: 18px;
 	font-weight: 600;
-	margin-left: 30px;
+	margin-left: 0px;
+	margin-bottom:10px;
 	display: inline-block;
 }
 
