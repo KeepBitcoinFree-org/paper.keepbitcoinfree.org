@@ -26,6 +26,9 @@ On macosx with GPG Keychain (Other PGP implementations will use similiar process
 
 - Right click on the paper.keepbitcoinfree.org.zip file > Services > OpenPGP: Verify Signature of File
 
-To verify shasum on the paper.keepbitcoinfree.org.zip file, run the below command on the file and compare to the shasum.txt file included: 
+The GPG Services - Verification Results should show a checkmark for a Trusted Signature that matches the provided Public Key for the paper.keepbitcoifree.org.zip file.
+
+You can also verify that the zip file has not been altered since it was last updated by KeepBitcoinFree-org. To verify the shasum on the paper.keepbitcoinfree.org.zip file, run the below command on the file and compare it to the shasum.txt file included (or the shasum listed below): 
 
 - shasum -a 256 paper.keepbitcoinfree.org.zip
+4d169efa1ae49db4f050c0eac6956117cc588179795c52caa51f6bc836a8fbca  paper.keepbitcoinfree.org.zip
